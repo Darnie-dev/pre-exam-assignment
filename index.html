@@ -2,18 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="figma.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap"
-      rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap"
+    rel="stylesheet"
     />
+    <link rel="stylesheet" href="./index.css" />
     <title>Figma Assignment</title>
   </head>
 
   <body>
-    <main>
+    <main class="main-wrapper">
       <div class="wrapper">
         <div class="section" id="left">
           <div class="logo">
@@ -24,7 +26,7 @@
             Start benefiting from the wellness experience. For companies looking
             on increasing productivity, and improving organization wellness.
           </p>
-          <p>
+          <p class="mobile-text">
             Inspiring wholesome harmony for the mind, body and spirit, for
             everyone, everywhere.
           </p>
@@ -73,7 +75,7 @@
               </div>
             </div>
 
-            <br />
+          
             <!-- using BMI to represent rel between weight and height. -->
             <div class="BMI">
               <div class="all-input">
@@ -91,17 +93,16 @@
               </div>
             </div>
 
-            <br />
+            
 
             <div class="all-input">
-              <label for="Act_lvl">Activity Level</label> <br />
+              <label for="Act_lvl">Activity Level</label> 
               <select id="Act_lvl" name="Activity level">
                 <option value="sl">select here</option>
                 <option value="daily">Daily</option>
                 <option value="weekly">Weekly</option>
               </select>
             </div>
-            <br />
             <div class="pword-input">
               <div class="all-input">
                 <label for="pword">Password</label>
@@ -131,7 +132,7 @@
               </div>
             </div>
 
-            <br />
+        
 
             <button class="btn" type="submit">Register</button>
           </form>
@@ -141,7 +142,7 @@
             <a href="__" target="_blank"> Privacy Policy </a>
           </p>
         </div>
-        <p class="agreement">
+        <p class="mobile-agreement">
           By clicking Register, you agree to our
           <a href="_" target="_blank"> Terms of Use</a> and our
           <a href="__" target="_blank"> Privacy Policy </a>
